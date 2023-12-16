@@ -1,0 +1,578 @@
+body {
+    margin: 0;
+    width: 100vw;
+    background: black;
+}
+
+/*------Header------*/
+
+header nav ul {
+    list-style: none;
+    margin-right: 1em;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+    background-color: black;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    box-shadow: 0px 0px 10px white;
+    position: relative;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    transition: 200ms;
+    color: #e6bf64;
+}
+
+/*------Footer------*/
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 5em;
+    align-items: center;
+    box-shadow: 0px 0px 10px white;
+    margin-top: 1em;
+}
+
+footer a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: orange;
+    border: 0.1em solid orange;
+    padding: 0.2em;
+}
+
+footer h3 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------Index pagina------*/
+
+main h1 {
+    color: white;
+    font-size: 5em;
+    font-family: 'Permanent Marker', cursive;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    margin-top: -6em;
+    text-shadow: 10px 10px 20px black;
+}
+
+main h2 {
+    color: White;
+}
+
+.index h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    margin-top: -4em;
+    text-align: center;
+}
+
+.bannerhome {
+    width: 100vw;
+}
+
+/*------section1-----*/
+
+.galatasarayshirts {
+    width: 100%;
+    margin-top: 0;
+}
+
+.shirt:hover {
+    transform: scale(110%);
+    transition: 300ms;
+    background-color: rgba(251, 251, 251, 0.824);
+}
+
+.shirt {
+    font-size: 1em;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+.index section {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-right: 20em;
+    margin-left: 20em;
+    margin-bottom: 12em;
+}
+
+.index section article h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1, 5em;
+    color: black;
+}
+
+.index section article h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
+/*------section2-----*/
+
+.uel {
+    display: flex;
+    flex-direction: column;
+}
+
+.uel article {
+    border-radius: 0.5em;
+    padding: 2em;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.uel p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.uel img {
+    width: 50%;
+    border-style: solid none solid none;
+    border-color: #ffb300;
+    border-width: 0.5em;
+}
+
+/*------section3-----*/
+
+.overwinning {
+    display: flex;
+    flex-direction: column;
+}
+
+.overwinning article {
+    margin-top: -7em;
+    border-radius: 0.5em;
+    padding: 2em;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.overwinning p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*------section4-----*/
+
+.clublied audio {
+    width: 100%;
+
+}
+
+/*------Games pagina------*/
+
+.games {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+.games h4 {
+    color: white;
+    text-align: center;
+}
+
+.games article {
+    font-size: 1em;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10em;
+    padding-right: 10em;
+
+}
+
+.games article img {
+    height: 7em;
+}
+
+.games article:hover {
+    transform: scale(105%);
+    transition: 300ms;
+    background-color: rgba(251, 251, 251, 0.824);
+}
+
+.games article h2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.games h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.games img {
+    align-items: center;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.superliglogo {
+    align-items: center;
+    display: flex;
+    margin-bottom: -2em;
+}
+
+.championsleaguelogo {
+    align-items: center;
+    display: flex;
+    margin-bottom: -2em;
+    margin-top: 3em;
+}
+
+
+.vriendschappelijk {
+    align-items: center;
+    display: flex;
+    margin-bottom: -2em;
+    margin-top: 3em;
+    height: 5em;
+}
+
+.games section {
+    width: 50%;
+    height: 6em;
+    background: linear-gradient(#ffffff, #b5b5b5);
+    align-items: center;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 0.1em;
+    padding-bottom: 0.3em;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0.2em;
+}
+
+.games button {
+    color: #ffffff;
+    background-color: #ffb300;
+    border-style: none;
+    padding: 0.5em;
+    border-radius: 0.1em;
+    width: 10%;
+}
+
+.games button:hover {
+    color: #ffb300;
+    background-color: rgb(255, 255, 255);
+    transition: 500ms;
+}
+
+.games input {
+    background-color: white;
+    border-style: none;
+    padding: 0.5em;
+    width: 50%;
+}
+
+
+/*------News pagina------*/
+
+.news img {
+    width: 80%;
+    display: flex;
+    align-items: center center;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+.news h1 {
+    color: white;
+    width: 85%;
+    font-size: 4em;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin-top: -4em;
+    text-shadow: 10px 10px 20px black;
+}
+
+.news section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 3em;
+    justify-content: space-around;
+}
+
+.news article {
+    width: auto;
+    font-size: 1em;
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+    padding: 1em;
+    align-items: center;
+    text-align: center;
+}
+
+.news h4 {
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.news h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.news section:nth-of-type(2) article img {
+    display: flex;
+    justify-content: flex-start;
+    width: 20em;
+    border-radius: 5px;
+}
+
+iframe {
+    border-style: none;
+}
+
+.news section:nth-of-type(2) article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.news section:nth-of-type(2) h3 {
+    font-size: 25px;
+    margin-left: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.news section:nth-of-type(3) article video {
+    display: flex;
+    justify-content: flex-start;
+    width: 20em;
+    border-radius: 5px;
+}
+
+.news section:nth-of-type(3) article {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.news section:nth-of-type(3) h3 {
+    font-size: 25px;
+    margin-left: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.news article div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 2em;
+    margin-left: 2em;
+    color: rgb(0, 0, 0);
+}
+
+/*-----Bronnen-----*/
+
+.bronnen h2 {
+    margin-top: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.bronnen p {
+    margin-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    opacity: 50%;
+}
+
+
+/*------Team---------*/
+
+.team {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+.team img {
+    position: relative;
+    width: 80%;
+    border-radius: 1em;
+    width: 80%;
+    display: flex;
+    align-items: center center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team h1 {
+    position: absolute;
+    color: white;
+    width: 85%;
+    padding-top: 2em;
+    font-size: 4em;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    text-shadow: 10px 10px 20px black;
+}
+
+.team h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.team ul {
+    margin-top: 5em;
+    list-style: none;
+}
+
+.team section article ul {
+    text-align: center;
+}
+
+.team section {
+    margin-left: 6.5em;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.team section article h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 2em;
+}
+
+.team section:nth-of-type(1) article h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+.team article {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.team section:nth-of-type(1) article img {
+    margin-top: 5em;
+    width: 33%;
+    height: 33%;
+}
+
+.team section:nth-of-type(2) {
+    width: 80%;
+    border-radius: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+}
+
+.team section:nth-of-type(2):hover {
+    box-shadow: 0 0 50px rgb(206, 141, 0);
+    transition: 500ms;
+
+}
+
+.team section:nth-of-type(2) article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team section:nth-of-type(2) article h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 1em;
+    padding-bottom: -2em;
+}
+
+.team section:nth-of-type(2) h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0.5em;
+    margin: 0%;
+    color: #000000;
+    text-align: center;
+}
+
+.team section:nth-of-type(2) article img {
+    width: 50%;
+    margin: auto;
+}
